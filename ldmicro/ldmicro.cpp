@@ -83,7 +83,7 @@ void WtMain::MakeMainWindowMenus()
 
 void InitForDrawing(void)
 {   
-    SetSyntaxHighlightingColours();
+    void SetSyntaxHighlightingColours();
     auto DrawWndContainer = Wt::cpp14::make_unique<Wt::WContainerWidget>();
     DrawWndContainer->setMinimumSize(Wt::WLength(100, Wt::LengthUnit::Percentage),
         Wt::WLength(70, Wt::LengthUnit::Percentage));

@@ -44,5 +44,3 @@ static void DrawCharsToScreen(HCRDC Hcr, int cx, int cy, const char *str);
 double ScreenColsAvailable(void);
 
 #endif
-
-void SetSyntaxHighlightingColours(void)
